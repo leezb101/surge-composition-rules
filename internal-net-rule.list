@@ -7,3 +7,6 @@ IP-CIDR,10.2.0.0/16,InternalNet
 DOMAIN-SUFFIX,gaccode.com,Proxy
 DOMAIN-SUFFIX,google.com,GeminiSGP,extended-matching
 
+
+[URL Rewrite]
+beebot-console.beebot.com 10.1.8.37 302
