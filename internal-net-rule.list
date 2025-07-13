@@ -1,7 +1,7 @@
 # # 您可以在此处插入自定义规则
 # ====== 以下是集团内网的配置，用来同时访问内外网
-IP-CIDR,10.1.0.0/16,InternalNet
-IP-CIDR,10.2.0.0/16,InternalNet
+IP-CIDR,10.1.0.0/16,Internal-Policy-Selector
+IP-CIDR,10.2.0.0/16,Internal-Policy-Selector 
 # ====== 以上是集团内网的配置，用来同时访问内外网
 
 DOMAIN-SUFFIX,gaccode.com,Proxy
